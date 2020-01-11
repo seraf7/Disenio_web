@@ -1,11 +1,12 @@
 /*Archivos CSS dan formato al contenido*/
 
 body {
-	font-family: helvetica, arial, sans-serif;
 	margin: 0em;
 }
 
-h1 {
-	font-style: italic;
-	color: #373fff;
+/*Configuracion de una clase*/
+.cover {
+	height: 400px;
+	background-color: gray;
+	color: white;
 }

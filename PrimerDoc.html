@@ -14,26 +14,44 @@
 		<!--Libreria de CSS-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<!--Enlace de un archivo .css-->
-		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	
 	<body>
-		<!--Creacion de barra de navegacion-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<!--Insercion de un logo-->
-			<a class="navbar-brand" href="#">LOGO</a>
-			<!--Insercion de elementos de navegacion-->
-			<ul class="nav">
-		    	<li class="nav-item active">
-		        	<a class="nav-link" href="#">Inicio </a>
-		    	</li>
-		    	<li class="nav-item">
-		    		<a class="nav-link" href="#">Features </a>
-		    	</li>
-		      	<li class="nav-item">
-		        	<a class="nav-link" href="#">Pricing </a>
-		      	</li>
-		    </ul>
-		</nav>
+		<header>
+			<!--Creacion de barra de navegacion-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<!--Insercion de un logo-->
+				<a class="navbar-brand" href="#">LOGO</a>
+				<!--Insercion de elementos de navegacion-->
+				<ul class="nav">
+					<!--Elemento de navegacion-->
+			    	<li class="nav-item active">
+			        	<a class="nav-link" href="#">Inicio </a>
+			    	</li>
+			    	<li class="nav-item">
+			    		<a class="nav-link" href="#">Features </a>
+			    	</li>
+			      	<li class="nav-item">
+			        	<a class="nav-link" href="#">Pricing </a>
+			      	</li>
+			    </ul>
+			</nav>
+			<!--Agrupacion de elementos, asociacion de una clase-->
+			<div class = "cover d-flex justify-content-end align-items-center flex-column">
+				<!--Etiqueta de titulo-->
+				<h1>
+					TuHoroscopo
+				</h1>
+				<!--Insercion de un parrafo-->
+				<p>
+					Tu aliado en astrologia
+				</p>
+				<!--Insercion de un boton-->
+				<button class="btn btn-dark">
+					Conoce más
+				</button>
+			</div>
+		</header>
 	</body>
 </html>
