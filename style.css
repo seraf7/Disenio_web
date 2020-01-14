@@ -7,6 +7,11 @@ body {
 /*Configuracion de una clase*/
 .cover {
 	height: 400px;
-	background-color: gray;
-	color: white;
+	/*Especificacion de ubicacion de la imagen de fondo*/
+	background-image: url(rsz_farzad-mohsenvand-tbuescuqmja-unsplash.jpg);
+	color: white;		/*Color del texto*/
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(0, 0, 0, 0.2);	/*Especificacion de un color y opacidad*/
+	background-blend-mode: darken;		/*Modo de fusion*/
 }
