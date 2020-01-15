@@ -118,5 +118,30 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<div class="container mt-5 mb-5">
+				<!--Etiqueta para crear un formulario
+					action, indica a donde se envia la informacion-->
+				<form action="">
+					<!--Etique para el campo de entrada
+					for, relaciona el valor de label con id de input-->
+					<label for="email">
+						Correo electrónico
+					</label>
+					<div class="d-flex">
+						<!--flex fill, establece el tamaño del campo al espacio disponible-->
+						<div class="flex-fill mr-2">
+							<!--Especifica un campo entrada que se tendra
+								type, controla el tipo de datos a recibir-->
+							<input type="email" id="email" class="form-control" />
+						</div>
+						<!--type, especifica que hara el boton al ser pulsado-->
+						<button type="submit" class="btn btn-dark">
+							Enviar
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
 	</body>
 </html>
